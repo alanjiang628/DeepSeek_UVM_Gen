@@ -1,7 +1,7 @@
 `ifndef __SC_ENV_PKG_SV__
 `define __SC_ENV_PKG_SV__
 `include "sva_lib.sv"
-`include "enum_pkg.sv"
+`include "sc_agent_pkg.sv"
 package sc_env_pkg;
     `include "uvm_macros.svh"
     import uvm_pkg::*;
